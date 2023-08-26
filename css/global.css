@@ -358,7 +358,7 @@ footer {
 
   .close-btn {
     position: absolute;
-    background: url(/giorgi1/icons/close.png) center/cover no-repeat;
+    background: url(/icons/close.png) center/cover no-repeat;
     width: 40px;
     height: 40px;
     background-size: 25px;
@@ -370,7 +370,7 @@ footer {
   }
 
   .menu-btn {
-    background: url(/giorgi1/icons/menu.png) center/cover no-repeat;
+    background: url(/icons/menu.png) center/cover no-repeat;
     width: 40px;
     height: 40px;
     background-size: 30px;
