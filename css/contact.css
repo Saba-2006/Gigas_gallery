@@ -1,0 +1,224 @@
+/* contact */
+.contact-section {
+  top: 0;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(/giorgi1/images/aurora-1197753.jpg) center center/cover
+    no-repeat;
+}
+
+.contact {
+  width: 500px;
+  padding: 50px;
+  margin: auto;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.2);
+  mix-blend-mode: rgba(0, 0, 0, 0.8);
+}
+
+.title-1 h1 {
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.phone div {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(to right, #1e00a4, #030063, #19002e);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+}
+
+.email div {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(to right, #1e00a4, #030063, #19002e);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+}
+
+.phone div i {
+  font-size: 25px;
+}
+
+.email div i {
+  font-size: 25px;
+}
+
+.phone a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.email a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.title h2 {
+  color: #fefefe;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.socials-networks {
+  line-height: 3rem;
+}
+
+.social-icons a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.facebook {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.social-icons a .facebook i {
+  font-size: 35px;
+  color: #3b5998;
+}
+
+.social-icons a {
+  display: inline-flex;
+}
+
+.social-icons a h3 {
+  font-size: 25px;
+  font-weight: 200;
+  color: #fff;
+}
+
+.instagram {
+  border-radius: 10px;
+  width: 37px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+}
+
+.social-icons a .instagram i {
+  font-size: 35px;
+  color: #fff;
+}
+
+.pinterest {
+  border: 10px solid #fff;
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.social-icons a .pinterest i {
+  font-size: 35px;
+  color: #e60023;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.tiktok {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  width: 37px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+
+.social-icons a .tiktok i {
+  font-size: 25px;
+  color: #fff;
+}
+
+/* footer */
+
+footer {
+  margin-top: -12vh;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 900px) {
+  nav {
+    left: -400px;
+  }
+  #nav-check:checked ~ nav {
+    left: -3vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* contact hero section */
+  .contact {
+    width: 90vw;
+    padding: 10px;
+  }
+
+  .email a {
+    overflow-x: auto;
+  }
+}
