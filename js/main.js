@@ -18,3 +18,14 @@ lightbox.addEventListener("click", (e) => {
   if (e.target !== e.currentTarget) return;
   lightbox.classList.remove("active");
 });
+
+// AOS
+AOS.init({
+  offset: 200,
+  delay: 100,
+  duratoin: 400,
+  easing: "ease",
+  once: false,
+  mirror: false,
+  anchorPlacement: "top-bottom",
+});
