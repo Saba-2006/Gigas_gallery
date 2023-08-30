@@ -23,7 +23,7 @@
   letter-spacing: 2px;
   margin-bottom: 20px;
   text-align: center;
-  font-size: clamp(1.8rem, 10vw + 0.7rem, 40px);
+  font-size: clamp(1.5rem, 8vw + 0.7rem, 40px);
   font-weight: 300;
 }
 
