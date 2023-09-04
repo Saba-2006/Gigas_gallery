@@ -381,6 +381,21 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
+  /* header */
+
+  .menu-item > a {
+  font-size: 1.3rem;
+}
+
+  .menu-item .sub-menu .sub-item a {
+  font-size: 1.1rem;
+}
+
+  header .navigation .menu {
+    width: 220px;
+  }
+  
+  /* footer */
   footer {
     border-radius: 50px 50px 0 0;
   }
