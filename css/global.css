@@ -398,6 +398,11 @@ footer {
    .menu-item .sub-menu {
     width: 185px;
   }
+
+   .close-btn {
+    width: 30px;
+    height: 30px;
+  }
   
   /* footer */
   footer {
