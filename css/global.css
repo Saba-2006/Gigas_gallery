@@ -158,7 +158,7 @@ header {
 
 .menu-item > a {
   color: #000;
-  font-size: clamp(1rem, 1vw + 0.3rem, 1.7rem);
+  font-size: clamp(1rem, 1vw + 0.5rem, 2rem);
   margin-left: 55px;
   padding-bottom: 1.5rem;
   cursor: pointer;
@@ -192,7 +192,7 @@ header {
 .menu-item .sub-menu .sub-item a {
   display: block;
   color: #000;
-  font-size: clamp(0.8rem, 1vw + 0.5rem, 1.3rem);
+  font-size: clamp(0.8rem, 1.2vw + 0.5rem, 1.8rem);
   padding: 10px 20px;
 }
 
@@ -296,7 +296,7 @@ footer {
     position: fixed;
     display: block;
     background: #fff;
-    width: 230px;
+    min-width: 250px;
     height: 100vh;
     top: 0;
     right: -100%;
