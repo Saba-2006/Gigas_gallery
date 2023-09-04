@@ -296,7 +296,7 @@ footer {
     position: fixed;
     display: block;
     background: #fff;
-    min-width: 250px;
+    min-width: 200px;
     height: 100vh;
     top: 0;
     right: -100%;
