@@ -394,6 +394,10 @@ footer {
   header .navigation .menu {
     width: 220px;
   }
+
+   .menu-item .sub-menu {
+    width: 185px;
+  }
   
   /* footer */
   footer {
