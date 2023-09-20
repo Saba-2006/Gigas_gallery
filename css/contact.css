@@ -3,7 +3,8 @@ body {
   background-image: url(https://i.pinimg.com/564x/b2/db/1c/b2db1c2902681c1cc99f4d6edb79d3a1.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  object-fit: cover;
+  background-size: cover;
+  height: 100vh;
 }
 
 /* contact */
