@@ -98,7 +98,7 @@ body {
   color: #fefefe;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 40px;
+  font-size: clamp(1rem, 7.7vw + 0.5rem, 40px);
   font-weight: 300;
 }
 
