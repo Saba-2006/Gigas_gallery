@@ -72,9 +72,10 @@
 
 .img-text {
   position: absolute;
-  font-size: 50px;
+  font-size: 35px;
   left: 2%;
   bottom: 2%;
+  color: #fff;
 }
 
 .sec-one-right {
