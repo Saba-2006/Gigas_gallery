@@ -1,9 +1,9 @@
 /* body */
-/* body {
+body {
   width: 100%;
   height: 100vh;
   color: #fff;
-  background: linear-gradient(-45deg, #10a7ad, #36af67, #b5b854, #c54354);
+  background: linear-gradient(-45deg, #3e9497, #68d392, #d6da77, #df66ab);
   background-size: 400% 400%;
   position: relative;
   animation: change 10s ease-in-out infinite;
@@ -19,11 +19,6 @@
   100% {
     background-position: 0 50%;
   }
-} */
-
-body {
-  background: url(https://i.pinimg.com/564x/d6/4b/51/d64b514479e245fe197be186824279c1.jpg) center center/cover no-repeat;
-  background-size: 100% 100%;
 }
 
 /* contact */
