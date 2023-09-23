@@ -1,5 +1,5 @@
 /* body */
-body {
+/* body {
   width: 100%;
   height: 100vh;
   color: #fff;
@@ -19,6 +19,10 @@ body {
   100% {
     background-position: 0 50%;
   }
+} */
+
+body {
+  background: url(https://i.pinimg.com/564x/34/3d/db/343ddb3667ebabecf9b3ca69d89559b8.jpg), center center/cover no-repeat;
 }
 
 /* contact */
