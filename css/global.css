@@ -162,11 +162,12 @@ header {
   margin-left: 55px;
   padding-bottom: 1.5rem;
   cursor: pointer;
+  gap: 2px;
 }
 
 .icon-img {
-  width: 30px!important;
-  height: 30px!important;
+  width: 35px!important;
+  height: 35px!important;
 }
 
 .menu-item .sub-menu {
