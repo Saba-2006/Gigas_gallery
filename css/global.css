@@ -165,11 +165,6 @@ header {
   gap: 2px;
 }
 
-.icon-img {
-  width: 35px!important;
-  height: 35px!important;
-}
-
 .menu-item .sub-menu {
   position: absolute;
   background: #fff;
