@@ -164,6 +164,11 @@ header {
   cursor: pointer;
 }
 
+.icon-img {
+  width: 30px;
+  height: 30px;
+}
+
 .menu-item .sub-menu {
   position: absolute;
   background: #fff;
